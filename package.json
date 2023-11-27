@@ -1,0 +1,19 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "start:dev":"npx electronmon --trace-warnings .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "ajhar",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.1.2"
+  }
+}
